@@ -1,4 +1,0 @@
-Fixed Points (2)
-FP	Proba	State	ECMicroenv	DNAdamage	Migration	Metastasis	VIM	AKT2	ERK	miR200	AKT1	EMT	Invasion	p63	SMAD	CDH2	CTNNB1	CDH1	p53	p73	miR34	ZEB2	Apoptosis	miR203	p21	CellCycleArrest	GF	NICD	TGFbeta	TWIST1	SNAI2	ZEB1	SNAI1	DKK1
-#1	0.62662	VIM -- AKT2 -- ERK -- EMT -- CDH2 -- ZEB2 -- CellCycleArrest -- GF -- TWIST1 -- SNAI2 -- ZEB1 -- SNAI1	0	0	0	0	1	1	1	0	0	1	0	0	0	1	0	0	0	0	0	1	0	0	0	1	1	0	0	1	1	1	1	0
-#2	0.37338	CDH1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
