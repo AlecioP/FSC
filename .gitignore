@@ -1,2 +1,4 @@
-./tmp/
-./data/patients/
+./tmp/*
+./data/patients/*
+./a.out*
+./bin/mpi/share/*
