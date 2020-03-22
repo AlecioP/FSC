@@ -14,5 +14,5 @@ clean :
 	rm -R tmp
 	rm -R data/patients
 install :
-	#python utils/fakeData.py
+	python utils/fakeData.py
 	sh utils/configurempi.sh
