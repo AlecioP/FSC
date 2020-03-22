@@ -9,7 +9,6 @@ mkdir ../bin
 mkdir ../bin/mpi
 
 PREF="${CURRENT}/bin/mpi"
-
 ./configure --prefix=${PREF}
 make -j4
 make -j4 install
