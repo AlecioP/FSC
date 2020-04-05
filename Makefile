@@ -4,9 +4,10 @@ AVAILABLECORES=4
 PTTN=48
 FLINE=0
 RUN=bin/mpi/bin/mpirun
+LIBS=./bin/mpi/lib/libmpi.a ./bin/mpi/lib/libpmpi.a
 
 release :
-	$(COMPILER) main.cpp -I bin/mpi/include -L bin/mpi/lib -lmpi
+	$(COMPILER) main.cpp $(LIBS) -I bin/mpi/include  -v
 	$(RUN) -n $(AVAILABLECORES) ./a.out -pttn=$(PTTN) -fline=$(FLINE)
 
 clean :

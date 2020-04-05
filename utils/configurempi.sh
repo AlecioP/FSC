@@ -9,7 +9,7 @@ mkdir ../bin
 mkdir ../bin/mpi
 
 PREF="${CURRENT}/bin/mpi"
-./configure --prefix=${PREF}
+./configure --prefix=${PREF} --disable-f77 --disable-fc --disable-fortran --disable-opencl
 make -j4
 make -j4 install
 
